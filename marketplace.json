@@ -1,0 +1,13 @@
+{
+  "name": "last-mile-marketplace",
+  "plugins": [
+    {
+      "name": "last-mile",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Kills the last 20% of an almost-finished project. Scans the repo for unfinished edges: TODO/FIXME/HACK markers, missing UI states, production basics (favicon, meta/OG, robots.txt, error boundaries), unhandled promises/exceptions, console.log debris, and placeholder text. Emits a prioritized punch list; then the agent fixes items in order, one commit each. Caveat: heuristics are per-language (js/ts/py/html) and will miss framework-specific checks (e.g. a Vue SSR 404 or a Rails concern); treat the list as a floor, not a certificate.",
+      "displayName": "Last Mile",
+      "category": "developer-tools"
+    }
+  ]
+}

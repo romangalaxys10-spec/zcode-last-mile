@@ -1,0 +1,8 @@
+{
+  "name": "last-mile",
+  "version": "0.1.0",
+  "description": "Kills the last 20% of an almost-finished project. Scans the repo for unfinished edges: TODO/FIXME/HACK markers, missing UI states (empty/loading/error/404), production basics (favicon, meta/OG tags, robots.txt, error boundaries), unhandled promises and exceptions, console.log debris, and placeholder text. Emits a prioritized punch list; then the agent fixes items in order, one commit each.",
+  "author": { "name": "Roman's zcode agent" },
+  "skills": "./skills",
+  "commands": "./commands"
+}
